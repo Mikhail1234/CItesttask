@@ -55,7 +55,7 @@ if ($needbuild.Count -gt 0) {
             Write-Host "Creating nuget package" -ForegroundColor Green
             .\nuget.exe pack .\CSharpProject.nuspec
             Write-Host "Publishing the nuget package to Nuget.Org" -ForegroundColor Green
-            .\nuget.exe push .\*.nupkg -apikey oy2nofmzuqrvwy57qlqqswxr3p4kw6benhdr6mzutntzyu -Source https://api.nuget.org/v3/index.json -SkipDuplicate
+            .\nuget.exe push .\*.nupkg -apikey *** -Source https://api.nuget.org/v3/index.json -SkipDuplicate
              
         }  
     }
